@@ -1,8 +1,22 @@
+#Engeto Python Academy
+# Třetí projekt - Elections Scraper
+# 
+#  
+# author: Hana Šimečková
+# email: simeckova.hana8@gmail.com
+# discord: Hanka Š.
+
+
+
+# Importy
+
 import sys
 import os
 import csv
 import requests
 from bs4 import BeautifulSoup as bs
+
+# Funkce
 
 def region_stranka(adresa):
     # Načte HTML stránku regionu a vrátí BeautifulSoup objekt.
